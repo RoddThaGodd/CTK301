@@ -1,0 +1,31 @@
+/* this is a stylesheet for basicCSS.html*/
+/*
+p {
+    color: #ff9900;
+    background-color: #223599; 
+  }
+  */
+  .specialp {
+    color: black;
+    background-color: #ff9900;
+  }
+  #specialid {
+    color: aquamarine;
+    background-color: purple;
+  }
+  #divexample {
+    background-color: aqua;
+  }
+  .spanstyle {
+    color:red
+  }
+a {
+    color:red;
+    text-decoration:none
+}
+a:hover {
+    color:green;
+    text-decoration:underline
+}
+ 
+  
