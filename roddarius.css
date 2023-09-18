@@ -1,0 +1,24 @@
+.headers{
+    color: red;
+    background-color: black;
+}
+#contact {
+    color: aquamarine;
+    background-color: blanchedalmond;
+}
+.paragraph {
+    color: brown;
+    background-color: gray;
+}
+.spanstyle {
+    color:green;
+}
+a {
+    color: red
+}
+a:hover {
+    color: yellow;
+}
+a:visited {
+    color: green;
+}
