@@ -1,0 +1,36 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
+#header {
+    color:white;
+}
+.bg {
+    background-color:lightblue
+}
+.lol {
+    color:blue;
+}
+.naranja {
+    color:orange;
+}
+.highlight {
+    background-color:yellow;
+}
+.redd {
+    color:red;
+}
+.oregon {
+    color:yellow;
+    background-color:darkgreen;
+}
+.dude {
+    background-color:lightgreen;
+}
+.azul {
+    color:blue;
+}
