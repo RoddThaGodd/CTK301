@@ -1,0 +1,29 @@
+main a {
+    color: red;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: blue!important;
+    text-decoration: underline;
+}
+
+main a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+.evelyn a {
+    color: red;
+    text-decoration: none;
+}
+
+.evelyn a:hover {
+    color: blue!important;
+    text-decoration: underline;
+}
+
+.evelyn a:visited {
+    color: red;
+    text-decoration: none;
+}

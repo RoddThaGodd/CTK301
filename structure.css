@@ -1,0 +1,67 @@
+#wrapper {
+    margin: 1em auto;
+  width: 960px;
+  border: 5px solid blue;
+  background-color: #ffffff;
+  display:grid;
+  grid-template-columns: repeat(12,1fr);
+  
+}
+
+.navigation {
+grid-column:span 12;
+}
+
+
+
+
+footer {
+        grid-column: span 12;
+        margin: 0;
+    }
+
+
+
+    main {
+        grid-column: span 9;
+        padding: 10px;
+    }
+
+    
+    .main2 {
+        grid-column: span 8;
+        padding: 10px;
+    }
+
+.info {
+    grid-column: span 3;
+    padding:10px;
+}
+
+.info2 {
+    grid-column: span 4;
+    padding:10px;
+}
+
+.imgfloat {
+    float:left;
+    border: 2px solid blue;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.imgfloat2 {
+    float:right;
+    border: 2px solid blue;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.evelyn {
+    grid-column: span 4;
+    padding: 10px;
+}
+
+.three {
+    size: 350px;
+}
