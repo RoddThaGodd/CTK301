@@ -1,17 +1,10 @@
 
-.bio {
- background-image: url(cook.jpg);
- width: 290 px;
-padding: 500px;px;}
-
-.bio p {
-color:limegreen;
+header {
+    font-family: "gunplay-spraypaint", sans-serif;
+    text-align: center;
 }
- 
-
-
 header a {
-    text-align:center;
+
     color:limegreen;
     text-decoration:none;
 
@@ -26,18 +19,43 @@ header a:visited {
     text-decoration:none;
 }
 
+.bio {
+  background-image: url(cook.jpg);
+  width: 290 px;
+  padding: 333px;
+  border-radius: 50px;
+}
+
+.bio p {
+color:limegreen;
+text-shadow: 2px 2px 2px black;
+}
+ 
+
+
+
+
+
+
 .ots {
     grid-column:span 6;
-    border: 20px solid black;
+   
    
   }
 
   .cdg {
     grid-column:span 6;
-    border: 20px solid black;
-   
+    
   }
   
   
    
-  
+  .songs {
+    background-color:rgb(124, 7, 191);
+    grid-column: span 12;
+}
+
+
+section {
+    grid-column:span 6;
+}

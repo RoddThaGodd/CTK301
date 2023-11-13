@@ -22,30 +22,12 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    font-family: "gunplay-spraypaint", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
-nav li {
-border: 1px solid rgb(0, 0, 0);
-width: 290px;
-padding: 0px;
-margin: 2px;
-background: rgb(25,17,150);
-background-image: linear-gradient(to right top, #000000, #1f0612, #320822, #440436, #52004f, #5c0062, #650078, #6a008f, #7500a1, #7f00b3, #8a00c6, #9400d9);
-color: white;
-display:inline-block;
-}
-nav li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    
-}
 
-nav li a:hover {
-    background: rgb(25,17,150);
-background: linear-gradient(142deg, rgb(2, 68, 6) 0%, rgb(1, 97, 27) 6%, rgb(94, 247, 130) 100%);
-}
 
 body {
     background-color: grey;
@@ -62,17 +44,20 @@ footer {
   
 }
 
-.main2 {
+main {
   border: 5px solid black;
   grid-column: span 12;
-  background-color: rgb(124, 7, 191);
+  font-family: "gunplay-damage", sans-serif;
+font-weight: 400;
+font-style: normal;
+font: size 80px;px;
 }
 
 .textbox {
   background-color: black;
   color: white;
   margin:20px;
-  font-size: 360px;
+
 }
 
 .resize {
