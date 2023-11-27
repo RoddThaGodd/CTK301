@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>RoddThaGodd</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 	<link rel="stylesheet" href="https://use.typekit.net/lsp4grs.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
@@ -41,7 +43,11 @@
 				<source src="Movement.mp3" type="audio/mpeg">
 			  </audio>
 			
-			
+			  <div id="myCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="cdg.jpg"></div>
+				<div class="f-carousel__slide"><img src="cook.jpg"></div>
+				<div class="f-carousel__slide"><img src="drivewaypicrod.jpg"></div>
+			</div>
 
 				
 
@@ -84,5 +90,10 @@
 
 		
 	</div>
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
 </body>
 </html>
