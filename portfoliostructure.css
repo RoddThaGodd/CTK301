@@ -1,0 +1,29 @@
+.ots {
+    grid-column:span 6;
+   
+  }
+.cdg {
+    grid-column:span 6;
+}
+
+section {
+    grid-column:span 6;
+}
+
+.infobox {
+    grid-column: span 3;
+}
+
+.videobox {
+    grid-column:span 9;
+}
+
+.pics {
+    grid-column: span 3;
+    margin:5px;
+}
+
+.four {
+size: 250px; 
+width:250px;
+}

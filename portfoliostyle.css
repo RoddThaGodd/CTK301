@@ -19,11 +19,20 @@ header a:visited {
     text-decoration:none;
 }
 
-.bio {
-  background-image: url(cook.jpg);
-  width: 290 px;
-  padding: 333px;
+.round {
   border-radius: 50px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .bio p {
@@ -37,17 +46,7 @@ text-shadow: 2px 2px 2px black;
 
 
 
-.ots {
-    grid-column:span 6;
-   
-   
-  }
 
-  .cdg {
-    grid-column:span 6;
-    
-  }
-  
   
    
   .songs {
@@ -56,16 +55,17 @@ text-shadow: 2px 2px 2px black;
 }
 
 
-section {
-    grid-column:span 6;
+
+main p {
+  font-family: "gunplay-damage", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font: size 80px;
+  color:limegreen;
 }
 
-#myCarousel {
-  margin-bottom: 24px;
+.videobox {
+  border: 10px solid limegreen;
+  margin-bottom:10px;
 }
 
-#myCarousel .f-carousel__slide {
-  text-align: center;
-  padding: 24px;
-  background: #eee;
-}
