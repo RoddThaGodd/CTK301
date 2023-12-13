@@ -47,22 +47,25 @@
 		</main>
         
         <div class="videobox">
-            <iframe width="860" height="500" src="https://www.youtube.com/embed/7fH0_-D333E?si=0Bme212QNeKdBBVR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="vid" width="860" height="500" src="https://www.youtube.com/embed/7fH0_-D333E?si=0Bme212QNeKdBBVR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <div class="pics">
-            <img class="four" src="HOOD.jpeg" alt="hoodie up" >
-          </div>
 
-          <div class="pics">
-            <img class="four" src="MANGA.jpeg" alt="black and white photo">
-          </div>
+        <div class="videobox2">
+            <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/8j54J-rt-N0?si=iCJYYkNPS0JF6a3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
-          <div class="pics">
-            <img class="four" src="cook.jpg" alt="cook up">
-          </div>
+        <div class="videobox2">
+            <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/j3D9Oua_NKY?si=_MotKFitoYaapQ82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        
 
-          <div class="pics">
-            <img class="four" src="lookdown.jpeg" alt="looking down">
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img class="hunnid" src="HOOD.jpeg"></div>
+            <div class="f-carousel__slide"><img class="hunnid" src="MANGA.jpeg"></div>
+            <div class="f-carousel__slide"><img class="hunnid" src="lookdown.jpeg"></div>
+            <div class="f-carousel__slide"><img class="hunnid" src="cook.jpg"></div>
+            <div class="f-carousel__slide"><img class="hunnid" src="WOW.jpeg"></div>
+            <div class="f-carousel__slide"><img class="hunnid" src="UNITY.jpeg"></div>
           </div>
           
           
@@ -71,6 +74,10 @@
 
 		
 	</div>
-    
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: false };
+        new Carousel(container, options);
+      </script>
 </body>
 </html>

@@ -18,12 +18,27 @@ section {
     grid-column:span 9;
 }
 
-.pics {
-    grid-column: span 3;
-    margin:5px;
+#myCarousel {
+   
+    grid-column:span 12;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding-bottom: -5px;
+    border: 20px solid rgb(124, 7, 191);
+    background:transparent;
+    border-radius: 20px;
 }
 
-.four {
-size: 250px; 
-width:250px;
+.hunnid {
+    width:100%;
+}
+
+.unreleased {
+    grid-column: span 3;
+}
+
+.embed {
+    grid-column: span 9;
 }

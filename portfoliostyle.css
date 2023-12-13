@@ -2,6 +2,8 @@
 header {
     font-family: "gunplay-spraypaint", sans-serif;
     text-align: center;
+    font-size: 36px;
+    text-shadow: 10px 10px 10px black;
 }
 header a {
 
@@ -21,6 +23,7 @@ header a:visited {
 
 .round {
   border-radius: 50px;
+  border: 10px solid limegreen;
 }
 .container {
   position: relative;
@@ -65,7 +68,28 @@ main p {
 }
 
 .videobox {
-  border: 10px solid limegreen;
   margin-bottom:10px;
+  margin-top:10px;
+  border-radius: 10px;
 }
 
+.vid {
+  border: 10px solid limegreen;
+  border-radius:50px;
+}
+
+.container p {
+  color:white;
+  text-shadow: 3px 3px 3px limegreen ;
+}
+
+body {
+  background-image:url(MANGA.jpeg);
+}
+
+.videobox2 {
+  margin-bottom:10px;
+  margin-top:10px;
+  border-radius: 10px;
+  grid-column:span 6;
+}
